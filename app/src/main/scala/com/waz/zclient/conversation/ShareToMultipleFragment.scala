@@ -18,7 +18,7 @@
 package com.waz.zclient.conversation
 
 import android.content.Context
-import android.graphics.{Color, PorterDuff}
+import android.graphics.Color
 import android.os.Bundle
 import android.support.v4.content.ContextCompat
 import android.support.v7.widget.RecyclerView.ViewHolder
@@ -47,7 +47,7 @@ import com.waz.zclient.messages.{MessagesController, UsersController}
 import com.waz.zclient.pages.BaseFragment
 import com.waz.zclient.pages.extendedcursor.ephemeral.EphemeralLayout
 import com.waz.zclient.ui.text.TypefaceTextView
-import com.waz.zclient.ui.utils.{BitmapUtils, ColorUtils, KeyboardUtils}
+import com.waz.zclient.ui.utils.{ColorUtils, KeyboardUtils}
 import com.waz.zclient.ui.views.CursorIconButton
 import com.waz.zclient.utils.ViewUtils
 import com.waz.zclient.views.ImageAssetDrawable.{RequestBuilder, ScaleType}
